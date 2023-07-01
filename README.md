@@ -246,7 +246,7 @@ Creamos
 
 15_Cuando se inicie el balanceador de carga debemos cambiar su security group por el de ALB-SG que tiene la regla de tráfico
 
-# Verificar el correcto funcionamiento debemos esperar a que se termine el cloudformation y copiar el DNS de nuestro load balancer para probar el sitio wordpress
+# Verificar el correcto funcionamiento debemos esperar a que termine el cloudformation y posterior a esto, copiaremos el DNS de nuestro load balancer para probar el sitio wordpress
 
 
 http://LBcontenedores-1066378451.us-east-1.elb.amazonaws.com

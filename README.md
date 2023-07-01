@@ -249,7 +249,7 @@ Creamos
 # Verificar el correcto funcionamiento debemos esperar a que se termine el cloudformation y copiar el DNS de nuestro load balancer para probar el sitio wordpress
 
 
-.us-east-1.elb.amazonaws.com:80
+http://LBcontenedores-1066378451.us-east-1.elb.amazonaws.com
 
 
 

@@ -11,7 +11,7 @@ define( 'SECURE_AUTH_KEY',  'Duoc.2023' );
 define( 'LOGGED_IN_KEY',    'Duoc.2023' );
 define( 'NONCE_KEY',        'Duoc.2023' );
 define( 'AUTH_SALT',        'Duoc.2023' );
-define( 'SECURE_AUTH_S
+define( 'SECURE_AUTH_SALT', 'Duoc.2023' );
 define( 'LOGGED_IN_SALT',   'Duoc.2023' );
 define( 'NONCE_SALT',       'Duoc.2023' );
 

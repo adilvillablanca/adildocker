@@ -209,20 +209,34 @@ Creamos
 # Crear Servicio
 
 1_Opciones informáticas Estrategia de proveedor de capacidad
+
 2_Configuración de implementación Servicio
+
 3_Familia elegimos nuestra tarea y la versión
+
 4_Nombre del servicio
+
 5_Tipo de servicio Réplica Tareas deseadas 1
-7_Redes Subredes todas
-8_Grupo de seguridad launch-wizard-1, task-sg, rds-ec2-1, ec2-rds-1
-9_Balanceo de carga
-10_Balanceador de carga de aplicaciones
-11_Crear un nuevo balanceador de carga
-12_Nombre del balanceador de carga
-13_Crear nuevo agente de escucha puerto 80 http
-14_Grupo de destino Crear nuevo grupo de destino elegir el nombre
-15_Crear servicio
-16_Cuando se inicie el balanceador de carga debemos cambiar su security group por el de ALB-SG que tiene la regla de tráfico
+
+6_Redes Subredes todas
+
+7_Grupo de seguridad launch-wizard-1, task-sg, rds-ec2-1, ec2-rds-1
+
+8_Balanceo de carga
+
+9_Balanceador de carga de aplicaciones
+
+10_Crear un nuevo balanceador de carga
+
+11_Nombre del balanceador de carga
+
+12_Crear nuevo agente de escucha puerto 80 http
+
+13_Grupo de destino Crear nuevo grupo de destino elegir el nombre
+
+14_Crear servicio
+
+15_Cuando se inicie el balanceador de carga debemos cambiar su security group por el de ALB-SG que tiene la regla de tráfico
 
 # Verificar el correcto funcionamiento debemos esperar a que se termine el cloudformation y copiar el DNS de nuestro load balancer para probar el sitio wordpress
 

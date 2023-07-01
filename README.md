@@ -179,7 +179,7 @@ Nombre del repositorio
 
 3. docker push 773425074112.dkr.ecr.us-east-1.amazonaws.com/wordpress:latest
 
-# En el ECS debemos crear una definición de tarea, para luego crear el cluster con esa imagen de nuestro repositorio.
+# En el ECS debemos crear una definición de tarea, para luego crear el cluster con la imagen de nuestro repositorio.
 
 1_Crear una nueva definición de tarea
 

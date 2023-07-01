@@ -142,18 +142,26 @@ Destino Security Group ec2-rds-1
 # Archivo Dockerfile y wp_config.php aplicar nuestras preferencias con vim.
 
 ENV	                 --------------------------------------------------- STRING.
+
 WORDPRESS_DB_NAME    ----------------------   Nombre base de datos que creamos.
+
 WORDPRESS_DB_USER	----------------------------------- admin(o usuario que le otorgamos permisos en la base de datos).
+
 WORDPRESS_DB_PASSWORD------------------------------------	contraseña maestra mysql o del usuario mysql.
+
 WORDPRESS_DB_HOST     ---------------------------------- 	Punto de conexion instancia RDS.
 
 
 # Editar wp-config.php.
 
 ENV---------------------------------------------------	STRING
+
 define('DB_NAME',----------------------------------	'Nombre base de datos que creamos'
+
 define('DB_USER',-------------------------------------	'admin(o usuario que le otorgamos permisos en la base de datos)'
+
 define('DB_PASSWORD',----------------------------------------------	'contraseña maestra mysql o del usuario mysql'
+
 define('DB_HOST',-------------------------------------------	'Punto de conexión instancia RDS'
 
 -------------------------------------------------------

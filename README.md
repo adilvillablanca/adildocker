@@ -174,15 +174,25 @@ Nombre del repositorio
 # En el ECS debemos crear una definición de tarea, para luego crear el cluster con esa imagen de nuestro repositorio.
 
 1_Crear una nueva definición de tarea
+
 2_Familia de definición de tareas Especifique un nombre 3_de familia de definición de tarea único.
+
 4_Nombre y la uri que se copia del repo que creamos
+
 5_Mapeos de puertos es el puerto 80 HTTP
+
 5_click en Siguiente
+
 6_Entorno de la aplicación Elegimos AWS FARGATE
+
 7_Sistema operativo/arquitectura Linux
+
 8_Tamaño de la tarea 2 vCPU y 4 GB de memoria
+
 9_Rol de tarea elegimos un rol con permisos 
+
 10_Rol de ejecución de tareas 
+
 11_Almacenamiento efímero 30 GB
 Creamos
 
